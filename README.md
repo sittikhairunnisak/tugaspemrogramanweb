@@ -1,4 +1,5 @@
-# tugas_pemrograman_web
+# Tugas_pemrograman_web
+# Sitti Khairunnisak (22101053032)
 
 Untuk menghitung panjang gelombang suatu gelombang, kita dapat menggunakan rumus:
 
