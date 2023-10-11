@@ -1,4 +1,4 @@
-# tugaspemrogramanweb
+# tugas_pemrograman_web
 
 Untuk menghitung panjang gelombang suatu gelombang, kita dapat menggunakan rumus:
 
