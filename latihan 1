@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulator Lambda</title>
+</head>
+<body>
+
+<?php
+// Fungsi untuk menghitung lambda
+function hitungLambda($input) {
+    // Gantilah rumus perhitungan lambda sesuai kebutuhan Anda
+    $lambda = $input * 0.5; // Contoh rumus sederhana
+    return $lambda;
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $input = $_POST["input"]; // Ambil input dari form
+
+    // Validasi input
+    if (is_numeric($input)) {
+        $lambda = hitungLambda($input);
+        echo "Nilai Lambda (Λ): " . $lambda;
+    } else {
+        echo "Input harus berupa angka.";
+    }
+}
+?>
+
+<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+    Masukkan nilai input: <input type="text" name="input">
+    <input type="submit" value="Hitung Lambda">
+</form>
+
+</body>
+</html>
